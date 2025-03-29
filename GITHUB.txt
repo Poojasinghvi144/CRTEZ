@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative Arts & Crafts</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background: url('https://source.unsplash.com/1600x900/?art,craft') no-repeat center center/cover;
+            color: white;
+            text-align: center;
+        }
+        .header {
+            background: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            font-size: 28px;
+            font-weight: bold;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 40px;
+        }
+        .card {
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 10px;
+            padding: 15px;
+            width: 250px;
+            text-align: center;
+            backdrop-filter: blur(10px);
+            transition: transform 0.3s, background 0.3s;
+        }
+        .card:hover {
+            transform: scale(1.05);
+            background: rgba(255, 255, 255, 0.4);
+        }
+        .card img {
+            width: 100%;
+            height: 180px;
+            border-radius: 10px;
+        }
+        .footer {
+            background: rgba(0, 0, 0, 0.7);
+            padding: 10px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">Creative Arts & Crafts 🎨✨</div>
+
+    <div class="container">
+        <div class="card">
+            <img src="https://source.unsplash.com/250x180/?painting" alt="Painting">
+            <h3>Painting</h3>
+            <p>Express yourself with colors on canvas.</p>
+        </div>
+        
+        <div class="card">
+            <img src="https://source.unsplash.com/250x180/?handmade" alt="Handmade Crafts">
+            <h3>Handmade Crafts</h3>
+            <p>Beautiful handmade decorations and gifts.</p>
+        </div>
+        
+        <div class="card">
+            <img src="https://source.unsplash.com/250x180/?origami" alt="Origami">
+            <h3>Origami</h3>
+            <p>Fold creativity into life with paper art.</p>
+        </div>
+
+        <div class="card">
+            <img src="https://source.unsplash.com/250x180/?clay" alt="Clay Modeling">
+            <h3>Clay Modeling</h3>
+            <p>Shape imagination into reality with clay.</p>
+        </div>
+
+        <div class="card">
+            <img src="https://source.unsplash.com/250x180/?diy" alt="DIY Projects">
+            <h3>DIY Projects</h3>
+            <p>Craft amazing projects with simple materials.</p>
+        </div>
+
+    </div>
+
+    <div class="footer">© 2025 Creative Arts & Crafts | Designed with ❤️</div>
+
+</body>
+</html>
