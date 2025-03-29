@@ -8,7 +8,7 @@
         body {
             margin: 0;
             font-family: 'Arial', sans-serif;
-            background: url('https://source.unsplash.com/1600x900/?art,craft') no-repeat center center/cover;
+            background: url('https://images.pexels.com/photos/1646951/pexels-photo-1646951.jpeg') no-repeat center center/cover;
             color: white;
             text-align: center;
         }
@@ -56,31 +56,31 @@
 
     <div class="container">
         <div class="card">
-            <img src="https://source.unsplash.com/250x180/?painting" alt="Painting">
+            <img src="https://images.pexels.com/photos/1624496/pexels-photo-1624496.jpeg" alt="Painting">
             <h3>Painting</h3>
             <p>Express yourself with colors on canvas.</p>
         </div>
         
         <div class="card">
-            <img src="https://source.unsplash.com/250x180/?handmade" alt="Handmade Crafts">
+            <img src="https://images.pexels.com/photos/4202327/pexels-photo-4202327.jpeg" alt="Handmade Crafts">
             <h3>Handmade Crafts</h3>
             <p>Beautiful handmade decorations and gifts.</p>
         </div>
         
         <div class="card">
-            <img src="https://source.unsplash.com/250x180/?origami" alt="Origami">
+            <img src="https://images.pexels.com/photos/4417706/pexels-photo-4417706.jpeg" alt="Origami">
             <h3>Origami</h3>
             <p>Fold creativity into life with paper art.</p>
         </div>
 
         <div class="card">
-            <img src="https://source.unsplash.com/250x180/?clay" alt="Clay Modeling">
+            <img src="https://images.pexels.com/photos/1591153/pexels-photo-1591153.jpeg" alt="Clay Modeling">
             <h3>Clay Modeling</h3>
             <p>Shape imagination into reality with clay.</p>
         </div>
 
         <div class="card">
-            <img src="https://source.unsplash.com/250x180/?diy" alt="DIY Projects">
+            <img src="https://images.pexels.com/photos/5702922/pexels-photo-5702922.jpeg" alt="DIY Projects">
             <h3>DIY Projects</h3>
             <p>Craft amazing projects with simple materials.</p>
         </div>
